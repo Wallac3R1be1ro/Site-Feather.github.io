@@ -1,0 +1,91 @@
+<!--<?php
+//------PHP-----
+?>-->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>EquipeFeather</title>
+        <meta charset="utf-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="Inicio.css">
+		<link rel="shortcut icon" href="../img/logo_feather.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div class="site-wrapper">
+            <!--Tópicos do site-->
+            <div class="cab-div">
+                <nav>
+                    <input type="checkbox" id="nav-toggle">
+                    <label for="nav-toggle" class="burger-menu"> 
+                        <img src="../img/nav.png" alt="">
+                    </label>
+                    <ul class="nav-cont">
+                        <li><a href="../Tela_Inicio/Inicio.html">Inicio</a></li>
+                        <li><a href="../Tela_Comunidade/Comunidade.html">Comunidade</a></li>
+                        <li><a href="../Tela_Jogos/jogo.html">Jogos</a></li>
+                        <li><a href="../Tela_Entrar/Entrar.html">Entrar</a></li>
+                    </ul>
+                </nav>
+                <!--------------------------------------------------------------->
+                <!--Logo do site-->
+                <header>
+                    <h1>Equipe Feather</h1>   
+				<!--Efeito Modal-->
+                    <div onclick="acao()" class="btn_modal"><button type="btn">Perfil</button></div>
+                </header>
+				<div class="modal">
+					<div onclick="fechar()" class="fechar"><button type="btn">X</button></div>
+					<div class="Conteudo_Modal">
+					
+					<h1>Membro Feather</h1>
+					
+					<label>Nome:</label>
+					<input type="text" name="Nome" readonly value=""/><br><br>
+					<label>Email:</label>
+					<input type="text" name="Email" readonly value=""/><br><br>
+					<button type="btn">Biblioteca</button><br><br>
+					<button type="btn">Alterar Senha</button><br><br>
+					<button type="btn">FaQ</button><br><br>
+					<button type="btn">Sair Conta?</button><br><br>
+					</div>
+				</div>
+            </div>
+                <!--------------------------------------------------------------->
+            <!--Conteúdos do site-->
+            <div class="row">
+                <section>
+                    <article class="card">
+                        <h2>Sobre a Equipe Feather</h2>
+                        <!--<video src="../Video/Apresentação.mp4" alt="EquipeFeather" width="100%">-->
+                        <!--<h3>Startup de Jogos Indies</h3>-->
+                        <p>A Equipe Feather é uma startup de jovens desenvolvedores, fundada entre meados de 2021.
+                        Desde sua criação temos como ambição o desenvolvimento de jogos, aplicações e sites web,
+                        possuindo como pilares o desenvolvimento de recursos bem otimizados para atender a demanda do cliente. </p>
+                    </article>
+                    <article class="card">
+                        <h2>Conheça os membros da equipe</h2>
+                        <img src="../img/P_20220718_180857.jpg" alt="EquipeFeather" width="100%">
+                        <h3>Sobre nós...</h3>
+                        <p>Inicialmente na alvorada do projeto Entropia a Equipe se baseava em apenas três integrantes,
+                        ao decorrer do projeto novos membros apareceram para compor o grupo, atualmentea Equipe Feather possuí 7
+                        integrantes, tendo como cada função respectiva: Wallace Santos R. (Produtor, Level Design e Roteirista), João
+                        Pedro Thomaz S. (Texturizador e Modelador 3D), Fabrício Giancarlo Moreira V. (Documentação e Design de Propriedades),
+                        Joyce Maria de Souza B. (Modeladora 3D e Sound Design), Jose Francisco de Souza B. (Programador e Compositor),
+                        e Luan Barbosa Morais (Programador e Diretor de Voz).
+                        </p>
+                    </article>
+            </div>
+        <!--------------------------------------------------------------->
+        <!--Rodapé do site-->
+            <footer>
+                <dl>E-mail:
+                <dd>pr0j3c7feather@gmail.com</dd></dl>
+                <dl>Rede Social:
+                <dd><a href="###">Instagram</a></dd></dl>
+                <p>Direitos reservados a Equipe Feather © 2022</p>
+            </footer>
+        <!--------------------------------------------------------------->
+        </div>
+		<script src="Inicio.js"></script>
+    </body>
+</html>
