@@ -118,9 +118,9 @@ nav a:hover{
 
 .modal{
 	width: 500px;
-	height: 500px;
-	background-color: purple;
-	border: 10px solid white;
+	height: 350px;
+	background-color: #000000;
+	border: 10px groove purple;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -141,6 +141,7 @@ nav a:hover{
 /*Conteúdo Modal*/
 .Conteudo_Modal, h1{
 	text-align: center;
+	color: white;
 }
 
 /*Modal
