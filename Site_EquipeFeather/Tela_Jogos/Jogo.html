@@ -20,18 +20,33 @@
                 </label>
                 <ul class="nav-cont">
                     <li><a href="../Tela_Inicio/Inicio.html">Inicio</a></li>
-                    <li><a href="../Tela_Comunidade/Comunidade.html">Comunidade</a></li>
                     <li><a href="../Tela_Jogos/jogo.html">Jogos</a></li>
                     <li><a href="../Tela_Entrar/Entrar.html">Entrar</a></li>
                 </ul>
             </nav>
+			
 <!--------------------------------------------------------------->
-<!--Logo do site-->
-            <header>
-                <h1>Equipe Feather</h1>    
-            </header>
-        </div>
-<!--------------------------------------------------------------->
+ <!--Logo do site-->
+                <header>
+                    <h1>EquipeFeather</h1>
+				<!--Efeito Modal-->
+                    <div onclick="acao()" class="btn_modal"><button type="btn">Perfil</button></div>
+                </header>
+				<div class="modal">
+					<div onclick="fechar()" class="fechar"><button type="btn">X</button></div>
+					<div class="Conteudo_Modal">
+					
+					<h1>Membro Feather</h1>
+					
+					<label>Nome:</label>
+					<input type="text" name="Nome" readonly value=""/><br><br>
+					<label>Email:</label>
+					<input type="text" name="Email" readonly value=""/><br><br>
+					<a href="../Tela_Entrar/Entrar.html"><button type="btn">Alterar Senha</button><br><br></a>
+					<button type="btn">Sair Conta?</button><br><br>
+					</div>
+				</div>
+            </div>
     <!--Conteúdos do site-->
         <div class="row">
             <section>
@@ -80,8 +95,8 @@
             <dl>E-mail:
             <dd>pr0j3c7feather@gmail.com</dd></dl>
             <dl>Rede Social:
-            <dd><a href="https://instagram.com/equipefeather?igshid=ZDdkNTZiNTM="><img src="../img/insta.jpeg" alt="siga nosso instagram" width height=100></a></dd>
-            <dd><a href="https://discord.gg/b2n9qZqGrp"><img src="../img/discord.png" alt="venha para nossa comunidade do discord" width height=100></a></dd></dl>
+            <p><a href="https://instagram.com/equipefeather?igshid=ZDdkNTZiNTM="><img src="../img/insta.jpeg" alt="siga nosso instagram" width height=100></a>
+                    <a href="https://discord.gg/b2n9qZqGrp"><img src="../img/discord.png" alt="venha para nossa comunidade do discord" width height=100></a></p>
             
             <p>Direitos reservados a Equipe Feather © 2022</p>
         </footer>
